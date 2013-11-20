@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: papayawhip;
+}
+a {
+  color: #00B7FF;
+}
+.user-pics {
+  overflow: hidden;
+}
+.user-pics > li {
+  list-style: none;
+  float: left;
+}
+.user-pics figure {
+  margin: 1em;
+}

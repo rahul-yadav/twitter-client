@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1 Users List
+  .user-pics-container(ng-controller="TwitterSearchController")
+    ul.user-pics
+      li(ng-repeat="tweet in tweets", title="{{tweet.user.name}}")
+        figure
+          img(ng-src="{{tweet.user.profile_image_url}}")	
